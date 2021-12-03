@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'snippets.apps.SnippetsConfig',
 ]
 
+ROOT_URLCONF = 'snippets.urls'
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
